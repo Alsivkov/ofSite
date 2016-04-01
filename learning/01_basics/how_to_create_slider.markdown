@@ -39,6 +39,7 @@ For the sake of example, draw a circle in the  ```draw()``` function and pass th
 
 
 	void ofApp:draw(){
+		gui.draw();
 		ofDrawCircle(ofGetWidth()/2, ofGetHeight()/2, radius);
 	}
 
